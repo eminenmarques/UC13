@@ -1,9 +1,9 @@
 /flutter
 # Ignore everything
-*
+
 
 # Except the main.dart file
-!lib/main.dart
+
 
 # Ignore build artifacts and other generated files
 **/doc/api/

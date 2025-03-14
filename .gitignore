@@ -1,1 +1,38 @@
 /flutter
+# Ignore everything
+*
+
+# Except the main.dart file
+!lib/main.dart
+
+# Ignore build artifacts and other generated files
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.idea/
+*.iml
+*.ipr
+*.iws
+# Uncomment the following line if you want to ignore VS Code settings
+#.vscode/
+app.*.symbols
+app.*.map.json
+/android/app/debug
+/android/app/profile
+/android/app/release
